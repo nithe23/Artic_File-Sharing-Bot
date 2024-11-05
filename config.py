@@ -15,7 +15,7 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://drapixstore:Y7DJWJCCpBQClI5o@cl
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "Cluser0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002437344784"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 
