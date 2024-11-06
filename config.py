@@ -45,7 +45,7 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", @Anime_Weekends)
+CUSTOM_CAPTION = os.environ.get("@Anime_Weekends", None)
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
