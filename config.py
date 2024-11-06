@@ -5,24 +5,24 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7378354734:AAFQiMOVHBykuoGYtbIgd9mTrKDT_Rwpd1I")
+API_ID = int(os.environ.get("API_ID", "28744454"))
+API_HASH = os.environ.get("API_HASH", "237e15f7c006b10b4fa7c46fee7a5377")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6266529037"))
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://drapixstore:Y7DJWJCCpBQClI5o@cluster0.fq7ee6x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002437344784"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "300")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
@@ -31,8 +31,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6848088376]
-    for x in (os.environ.get("ADMINS", "6848088376").split()):
+    ADMINS=[6266529037]
+    for x in (os.environ.get("ADMINS", "6266529037").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -45,7 +45,7 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", @Anime_Weekends)
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
