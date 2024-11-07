@@ -45,9 +45,9 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("@Anime_Weekends", None)
+CUSTOM_CAPTION = os.environ.get("@Ongoing_Weekends", None)
 
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 DISABLE_CHANNEL_BUTTON = True if os.environ.get('DISABLE_CHANNEL_BUTTON', "True") == "True" else False
 
