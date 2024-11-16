@@ -10,7 +10,7 @@ API_ID = int(os.environ.get("API_ID", "25508469"))
 API_HASH = os.environ.get("API_HASH", "9f12da65a8062bf30b83f229719ef993")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1432496522"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://jeffreymosesdj:Jeffrey@cluster2.cuiux.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2")
 DB_NAME = os.environ.get("DB_NAME", "Cluster2")
 
@@ -31,8 +31,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6848088376]
-    for x in (os.environ.get("ADMINS", "6848088376").split()):
+    ADMINS=[1432496522]
+    for x in (os.environ.get("ADMINS", "1432496522").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
