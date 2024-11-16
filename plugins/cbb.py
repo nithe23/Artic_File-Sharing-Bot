@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>ᴍʏ ɴᴀᴍᴇ :</b> <a href='http://t.me/Hoshino_Xbot'>ᴡᴇᴇᴋᴇɴᴅs ғɪʟᴇ sʜᴀʀᴇ</a> \n<b>Language :</b> <a href='https://python.org'>Python 3</a> \n<b>Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>Main Channel :</b> <a href='https://t.me/Anime_Weekends'>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ </a> \n<b>ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/Ongoing_Weekends'>ᴏɴɢᴏɪɴɢ ᴡᴇᴇᴋᴇɴᴅ </a> \n<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='tg://user?id={OWNER_ID}'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>",
+            text = f"<b>ᴍʏ ɴᴀᴍᴇ :</b> <a href='http://t.me/Ruby_Hoshino_XBot'>ᴀʀᴛɪᴄ ғɪʟᴇ sᴛᴏʀᴇ</a> \n<b>Language :</b> <a href='https://python.org'>Python 3</a> \n<b>Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>Main Channel :</b> <a href='https://t.me/Anime_Artic'>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ </a> \n<b>ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/Ongoing_Artic'>ᴏɴɢᴏɪɴɢ ᴀʀᴛɪᴄ </a> \n<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
